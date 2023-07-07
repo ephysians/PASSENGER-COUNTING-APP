@@ -1,6 +1,9 @@
 # PASSENGER-COUNTING-APP
 The Passenger Counter Application is a web-based tool designed to assist in counting the number of bus commuters boarding the Bus Rapid Transit (BRT) system for their daily commute. It provides a convenient way to track and record passenger numbers, along with additional features such as a digital clock and a sum button to calculate the total passenger count per trip.
 
+## Link:  https://thriving-cactus-d7b660.netlify.app <br />
+
+
 ## Features
 Passenger Counting: The application allows you to increment and decrement the passenger count by using the provided plus and minus buttons. The count is displayed in real-time on the screen.
 
