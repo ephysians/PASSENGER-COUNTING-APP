@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script_count.js" defer></script>
+    <title>COUNTER-APP</title>
+</head>
+
+<body>
+
+<div class="container">
+    
+
+        <div class="counter_container">
+
+            <h2>PASSENGER-COUNTER</h2>
+
+
+            <div class="main_area">
+                <button class="btn1" onclick="decre()" id="increasbtn"><span>-</span></button>
+                <h2 id="count_el">0</h2>
+                <button class="btn2" onclick="incre()" id="decreasbtn"><span>+</span></button>
+            </div>
+
+
+            <div class="main_area2">
+
+                <div class="btn3a">
+                    <button class="btn3" id="save" onclick="save()">SAVE</button>
+                    <p id="values"></p>
+                </div>
+
+                <div class="smallbtns">
+
+                    <div class="operation">
+                        <button id="adding" onclick="sumAll()">
+                            <h3>SUM</h3>
+                        </button>
+
+                        <span id="count_Add"></span>
+                    </div>
+
+                    <div class="reset_btn">
+
+                        <button id="reset" onclick="wipe_screen()">
+                            <h3 class="one">RESET</h3>
+                        </button>
+
+                        <div class="date-zone">
+                            <span id="hours">00</span>
+                            <span>:</span>
+                            <span id="minutes">00</span>
+                            <span>:</span>
+                            <span id="seconds">00</span>
+                            <span id="meridian">AM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

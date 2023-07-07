@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    font-size: 25px;
+}
+
+/* body {
+    background: teal;
+} */
+
+h2{
+    color: rgb(204, 178, 178);
+    width: 26.25rem;
+    margin-left: .9375rem;
+}
+
+
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.counter_container{
+    background: rgb(34, 102, 87);
+    border-radius: .8125rem;
+    position: relative;
+    text-align: center;
+    color: bisque;
+    height: 600px;
+    width: 28.125rem;
+    left: 25rem;
+    top: 3.75rem;
+}
+
+#count_el {
+    color: blue;
+    position: relative;
+    padding: 5px 0;
+    align-items: center;
+    background: white;
+    font-size: 50px;
+    width: 120px;
+    
+    border-radius: 10px;
+}
+
+.counter_container h2 {
+    position: relative;
+    top: 1.25rem;
+    font-size: xx-large;
+}
+
+.main_area {
+    position: relative;
+    top: 1.25rem;
+    margin: auto;
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main_area2 {
+    position: relative;
+    top: 100px;
+}
+
+
+.btn1 {
+    position: relative;
+    right: 5px;
+    padding: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    background: greenyellow;
+    font-weight: bold;
+    color: blue;
+    top: 20px;
+    left: 50px;
+
+}
+
+.btn2 {
+    position: relative;
+    text-align: center;
+    padding: 15px 14px;
+    border-radius: 5px;
+    background: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    top: 20px;
+    right: 40px;
+    
+}
+
+
+.btn3 {
+    position: relative;
+    text-align: center;
+    border-radius: .3125rem;
+    box-shadow: 0 0 .625rem .0625rem black;
+    cursor: pointer;
+    padding: 12px;
+    margin: 10px;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    left: 0px;
+    width: 250px;
+    bottom: 45px;
+}
+
+
+#values {
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+}
+
+
+#reset {
+    position: relative;
+    padding: 4px;
+    top: 50px;
+    background: red;
+    border-radius: 30px;
+    box-shadow: 0 0 3px 3px black;
+    cursor: pointer;
+    color: black;
+    width: 30px;
+    height: 30px;
+    right: 120px;
+    font-size: 6px;
+}
+
+#adding {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: blue;
+    box-shadow: 0 0 3px 3px black;
+    text-shadow: 5px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    right: 165px;
+    bottom: 45px;
+}
+
+h3{
+    color: aqua;
+    font-size: 7px;
+    position: relative;
+    right: 5px;
+    bottom: .125rem;
+}
+
+
+.one{
+    color: white;
+    font-size: 6px;
+    position: relative;
+    right: 0.9px;
+    bottom: 1px
+}
+
+
+
+p {
+    position: relative;
+    place-items: center;
+    border-radius: .3125rem;
+    top: -30px;
+    left: 97px;
+    width: 250px;
+    background: #252525;
+    padding: 5px;
+    font-weight: bolder;
+    height: 125px;
+    color: white;
+    font-size: 15px;
+}
+
+ .reset_btn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    bottom: 50px;
+    left: 160px;
+}
+
+.date-zone{
+    position: relative;
+    top: 20px;
+    background: transparent;
+    width: 120px;
+    /* background: rgb(6, 66, 66); */
+    border-radius: .1875rem;
+    left: 150px;
+    padding: 10px;
+}
+
+.date-zone span{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.operation span{
+    position: absolute;
+    padding: .625rem 0;
+    bottom: 29px;
+    background: brown;
+    box-shadow: 0 0 0 .0625rem black;
+    text-align: center;
+    left: 120px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    visibility:hidden;
+}
+
+.smallbtns{
+    position: relative;
+    top: 40px;
+      
+    
+}
+.reset_btn{
+position: absolute;
+top: 50px;
+}
+
+
+
+@media (max-width: 480px) {
+    .container {
+        position: relative;
+      width: 100%;
+      right: 200px;
+      top: 100px;
+    }
+    
+      .counter_container {
+        position: absolute;
+        width: 80%;
+        left: 133px;
+        bottom:200px;
+    } 
+
+    .counter_container h2 {
+        top: 1.25rem;
+        font-size: 25px;
+        right: 40px;
+    }
+
+    
+#count_el {
+    width: 150px;
+    align-items: center;
+    right: 10px;
+}
+
+
+.btn1 {
+    position: relative;
+    right: 5px;
+    padding: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    background: greenyellow;
+    font-weight: bold;
+    color: blue;
+    left: 20px;
+    top: 17px;
+}
+
+.btn2 {
+    position: relative;
+    text-align: center;
+    padding: 15px 14px;
+    border-radius: 5px;
+    background: blueviolet;
+    margin: 10px;
+    cursor: pointer;
+    top: 17px;
+    right: 20px;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+
+.date-zone{
+    position: relative;
+    top: 20px;
+    background: transparent;
+    width: 120px;
+    /* background: rgb(6, 66, 66); */
+    border-radius: .1875rem;
+    left: 80px;
+    padding: 10px;
+}
+
+
+p {
+    top: -40px;
+    left: 55px;
+    width: 250px;
+    background: #252525;
+}
+
+
+#adding {
+    left: 150px;
+    bottom: 155px;
+}
+
+
+#reset {
+    position: relative;
+    padding: 4px;
+    top: -170px;
+    background: red;
+    border-radius: 30px;
+    box-shadow: 0 0 3px 3px black;
+    cursor: pointer;
+    color: black;
+    width: 30px;
+    height: 30px;
+    right: 140px;
+    font-size: 6px;
+}
+
+
+.operation span{
+    background: brown;
+    box-shadow: 0 0 .625rem .0625rem black;
+
+    left: 80px;
+    color: white;
+  
+}
+
+
+
+.btn3 {
+    
+    padding: 12px;
+    margin: 10px;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    left: 0px;
+    width: 180px;
+    bottom: 45px;
+}
+    
+  } 
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    /* Add tablet-specific styles here */
+  }
